@@ -1,0 +1,119 @@
+.upcoming-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    flex-direction: column;
+    justify-content: center;
+    background-color:  rgb(48, 32, 16);
+    border-bottom-width: 5px;
+  }
+  .upcoming-container1 {
+    flex: 0 0 auto;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-self: flex-start;
+    margin-top: 3px;
+    align-items: flex-start;
+    border-color: black;
+    border-style: dashed;
+    border-width: 5px;
+    margin-bottom: 3px;
+    flex-direction: column;
+  }
+  .upcoming-text {
+    color: rgb(218, 195, 164);
+    font-size: 30px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+  }
+  .upcoming-text1 {
+    top: 5px;
+    left: 0px;
+    color: rgb(218, 195, 164);
+    right: 0px;
+    margin: auto;
+    position: absolute;
+    font-size: 30px;
+    align-self: center;
+    text-align: center;
+  }
+  .upcoming-container2 {
+    flex: 0 0 auto;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-self: flex-start;
+    margin-top: 3px;
+    align-items: flex-start;
+    border-color: var(--dl-color-gray-black);
+    border-style: dashed;
+    border-width: 5px;
+    margin-bottom: 3px;
+    flex-direction: column;
+  }
+  .upcoming-text2 {
+    color: rgb(218, 195, 164);
+    font-size: 30px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+  }
+  .upcoming-text3 {
+    top: 5px;
+    left: 0px;
+    color: rgb(218, 195, 164);
+    right: 0px;
+    margin: auto;
+    position: absolute;
+    font-size: 30px;
+    align-self: center;
+    text-align: center;
+  }
+  .upcoming-container3 {
+    flex: 0 0 auto;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-self: flex-start;
+    margin-top: 3px;
+    align-items: flex-start;
+    border-color: black;
+    border-style: dashed;
+    border-width: 5px;
+    margin-bottom: 3px;
+    flex-direction: column;
+  }
+  .upcoming-text4 {
+    color: rgb(218, 195, 164);
+    font-size: 30px;
+    padding-top: 5px;
+    padding-left: 5px;
+  
+    padding-right: 5px;
+    padding-bottom: 5px;
+  }
+  .upcoming-text5 {
+    top: 5px;
+    left: 0px;
+    color: rgb(218, 195, 164);
+    right: 0px;
+    margin: auto;
+    position: absolute;
+    font-size: 30px;
+    align-self: center;
+    text-align: center;
+  }
+  @media(max-width: 479px) {
+    .upcoming-text2 {
+      font-size: 30px;
+    }
+  }
+  

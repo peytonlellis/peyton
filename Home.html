@@ -1,0 +1,33 @@
+<!doctype html>
+<html dir="[direction]" lang="[language]" class="[class names]">
+<head>
+  <link href="./home.css" rel="stylesheet" />
+  <script src="myscripts.js"></script>
+</head>
+
+<body>
+  <div class="home-container">
+    <a href="upcoming.html" class="home-upcoming button"></a>
+    <a href="music.html" class="home-music button"></a>
+    <a href="gallery.html" class="home-gallery button"></a>
+    <a href="homefun.html" class="homefun-sille button"></a>
+    <a href="https://www.etsy.com/your/shops/me/onboarding/listing-editor/create#about" target="_blank" rel="noreferrer noopener" class="home-shop button"></a>
+    <a href="videos.html" class="home-videos button"></a>
+  </div>
+
+  <!-- Audio element -->
+  <audio id="myAudio">
+    <source src="Images for website/improv HM.wav" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script>
+    window.onload = function() {
+      var audio = document.getElementById("myAudio");
+      audio.play();
+    };
+  </script>
+</body>
+</html>
+
+      

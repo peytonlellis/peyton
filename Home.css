@@ -1,0 +1,213 @@
+.home-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: transform 0.3s;
+}
+
+.button:hover {
+    transform: scale(1.1); /* Increase scale by 10% when hovered */
+}
+
+.home-container {
+    text-align: center;
+}
+
+
+
+  body {
+    background-image: url("Images for website/dark-blue-denim-jeans-texture-600nw-64649035.webp");
+    cursor: url('Images for website/hands_PNG98525.png'), auto;
+  }
+
+  .home-upcoming {
+    top: 50px;
+    right: 20px;
+    color: rgb(185, 124, 32);
+    width: 360px;
+    height: 300px;
+    position: absolute;
+    background-size: cover;
+    text-decoration: none;
+    background-image: url("Images for website/upcoming events button.png");
+  }
+  .home-music {
+    top: 290px;
+    left: 518px;
+    color: rgb(185, 124, 32);
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    background-size: cover;
+    text-decoration: none;
+    background-image: url("Images for website/music button.png");
+  }
+  .home-gallery {
+    top: 150px;
+    left: 100px;
+    color: rgb(185, 124, 32);
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    background-size: cover;
+    text-decoration: none;
+    background-image: url("Images for website/gallery button.png");
+  }
+  .homefun-sille {
+    top: 10px;
+    left: 480px;
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    background-size: cover;
+    background-color: transparent;
+    border-color: transparent;
+    background-image: url("Images for website/knockout sille.PNG");
+  }
+  .home-shop {
+    top: 450px;
+    left: 216px;
+    color: rgb(185, 124, 32);
+    width: 300px;
+    height: 240px;
+    position: absolute;
+    background-size: cover;
+    text-decoration: none;
+    background-image: url("Images for website/shop button.png");
+  }
+  .home-videos {
+    top: 450px;
+    left: 950px;
+    color: rgb(185, 124, 32);
+    width: 300px;
+    height: 230px;
+    position: absolute;
+    background-size: cover;
+    text-decoration: none;
+    background-image: url("Images for website/Video button.png");
+  }
+  @media(max-width: 991px) {
+    .home-upcoming {
+      top: 297px;
+      right: 23px;
+    }
+    .home-music {
+      top: 395px;
+      left: 398px;
+    }
+    .home-sille {
+      top: 129px;
+      left: 367px;
+    }
+    .home-shop {
+      top: 571px;
+      left: 102px;
+      width: 226px;
+      height: 193px;
+    }
+    .home-gallery {
+      top: 275px;
+      left: 72px;
+    }
+    .home-videos {
+      top: 573px;
+      right: 92px;
+      width: 188px;
+      height: 178px;
+    }
+  }
+  @media(max-width: 767px) {
+    .home-upcoming {
+      top: 280px;
+      left: 444px;
+      width: 233px;
+      height: 129px;
+      position: absolute;
+      flex-direction: row;
+    }
+    .home-music {
+      top: 452px;
+      left: 300px;
+      width: 186px;
+      height: 163px;
+    }
+    .home-sille {
+      top: 97px;
+      left: 247px;
+    }
+    .home-shop {
+      top: 628px;
+      left: 91px;
+      width: 156px;
+      height: 146px;
+    }
+    .home-gallery {
+      top: 314px;
+      left: 37px;
+    }
+    .home-videos {
+      top: 629px;
+      right: 133px;
+      width: 145px;
+      height: 151px;
+    }
+  }
+  @media(max-width: 479px) {
+    .home-upcoming {
+      top: 287px;
+      left: 250px;
+      width: 172px;
+      height: 97px;
+      margin-right: var(--dl-space-space-halfunit);
+    }
+    .home-music {
+      top: 445px;
+      left: 156px;
+      width: 169px;
+      height: 141px;
+    }
+    .home-sille {
+      top: 81px;
+      left: 98px;
+      text-decoration: none;
+    background-image: url("Images for website/dark-blue-denim-jeans-texture-600nw-64649035.webp");
+
+    }
+    .home-shop {
+      top: 603px;
+      left: 32px;
+      width: 122px;
+      height: 107px;
+    }
+    .home-gallery {
+      top: 283px;
+      left: 19px;
+      width: 124px;
+      height: 107px;
+    }
+    .home-videos {
+      top: 576px;
+      right: 34px;
+      width: 95px;
+      height: 107px;
+    }
+  }
+  

@@ -1,0 +1,76 @@
+.music-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url("Images for website/IMG_4596.WEBP");
+  }
+  .music-link {
+    display: contents;
+  }
+  .music-image {
+    left: 100px;
+    width: 317px;
+    top: 350px;
+    height: 70px;
+    position: absolute;
+    object-fit: cover;
+    text-decoration: none;
+    background-color: antiquewhite;
+  }
+  .music-link1 {
+    display: contents;
+  }
+  .music-image1 {
+    left: 100px;
+    width: 100px;
+    top: 450px;
+    height: 100px;
+    position: absolute;
+    object-fit: cover;
+    text-decoration: none;
+  }
+  .music-container1 {
+    top: 100px;
+    flex: 0 0 auto;
+    left: 0px;
+    right: 0px;
+    width: 549px;
+    height: 522px;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .music-link2 {
+    display: contents;
+  }
+  .music-image2 {
+    top: 50px;
+    left: 110px;
+    right: 0px;
+    width: 335px;
+    bottom: 0px;
+    height: 330px;
+    margin: auto;
+    position: absolute;
+    object-fit: cover;
+    text-decoration: none;
+    transform: rotatez(-20deg);
+  }
+
+  .music-image3 {
+    left: 100px;
+    width: 100px;
+    top: 570px;
+    height: 100px;
+    position: absolute;
+    object-fit: cover;
+    text-decoration: none;
+   
+  }
+  
