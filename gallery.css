@@ -6,7 +6,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-image: url("Images for website/clay-potter-prayer-home-wall-rustic.jpeg");
+    background-image: url("https://github.com/peytonlellis/peyton/blob/main/clay-potter-prayer-home-wall-rustic.jpeg?raw=true");
   }
   .gallery-navlink {
     display: contents;
