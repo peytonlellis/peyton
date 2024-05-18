@@ -6,7 +6,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
-    background-image: url("Images for website/IMG_4596.WEBP");
+    background-image: url("https://raw.githubusercontent.com/peytonlellis/peyton/main/IMG_4596.WEBP");
   }
   .music-link {
     display: contents;
