@@ -34,7 +34,7 @@
 
 
   body {
-    background-image: url("dark-blue-denim-jeans-texture-600nw-64649035.webp");
+    background-image: url("https://raw.githubusercontent.com/peytonlellis/peyton/main/dark-blue-denim-jeans-texture-600nw-64649035.webp");
     cursor: url('Images for website/hands_PNG98525.png'), auto;
   }
 
@@ -47,7 +47,7 @@
     position: absolute;
     background-size: cover;
     text-decoration: none;
-    background-image: url("Images for website/upcoming events button.png");
+    background-image: url("https://github.com/peytonlellis/peyton/blob/main/upcoming%20events%20button.png?raw=true");
   }
   .home-music {
     top: 290px;
@@ -58,7 +58,7 @@
     position: absolute;
     background-size: cover;
     text-decoration: none;
-    background-image: url("Images for website/music button.png");
+    background-image: url("https://github.com/peytonlellis/peyton/blob/main/music%20button.png?raw=true");
   }
   .home-gallery {
     top: 150px;
@@ -69,7 +69,7 @@
     position: absolute;
     background-size: cover;
     text-decoration: none;
-    background-image: url("Images for website/gallery button.png");
+    background-image: url("https://github.com/peytonlellis/peyton/blob/main/gallery%20button.png?raw=true");
   }
   .homefun-sille {
     top: 10px;
@@ -80,7 +80,7 @@
     background-size: cover;
     background-color: transparent;
     border-color: transparent;
-    background-image: url("Images for website/knockout sille.PNG");
+    background-image: url("https://github.com/peytonlellis/peyton/blob/main/knockout%20sille.PNG?raw=true");
   }
   .home-shop {
     top: 450px;
@@ -91,7 +91,7 @@
     position: absolute;
     background-size: cover;
     text-decoration: none;
-    background-image: url("Images for website/shop button.png");
+    background-image: url("https://github.com/peytonlellis/peyton/blob/main/shop%20button.png?raw=true");
   }
   .home-videos {
     top: 450px;
