@@ -6,11 +6,10 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background-color: rgb(48, 32, 16);
+  background-color:  rgb(48, 32, 16);
 }
 .videos-iframe {
   width: 937px;
   height: 561px;
 }
-
   
