@@ -1,81 +1,174 @@
 .home-container {
-    width: 100%;
-    display: flex;
-    overflow: auto;
-    min-height: 100vh;
-    align-items: flex-end;
-    flex-direction: column;
-    justify-content: center;
-    
-  }
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  
+}
 
-  .button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: transparent;
-    color: white;
-    text-decoration: none;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 5px;
-    transition: transform 0.3s;
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  transition: transform 0.3s;
 }
 
 .button:hover {
-    transform: scale(1.1); /* Increase scale by 10% when hovered */
+  transform: scale(1.1); /* Increase scale by 10% when hovered */
 }
 
 .home-container {
-    text-align: center;
+  text-align: center;
 }
 
 
 
-  body {
-    background-image: url("https://raw.githubusercontent.com/peytonlellis/peyton/main/dark-blue-denim-jeans-texture-600nw-64649035.webp");
-    cursor: url('Images for website/hands_PNG98525.png'), auto;
-  }
+body {
+  background-image: url("https://raw.githubusercontent.com/peytonlellis/peyton/main/dark-blue-denim-jeans-texture-600nw-64649035.webp");
+  cursor: url('https://github.com/peytonlellis/peyton/blob/main/hands_PNG98525.png?raw=true'), auto;
+}
 
-  .home-upcoming {
-    top: 50px;
-    right: 20px;
-    color: rgb(185, 124, 32);
-    width: 360px;
-    height: 300px;
-    position: absolute;
-    background-size: cover;
-    text-decoration: none;
-    background-image: url("https://github.com/peytonlellis/peyton/blob/main/upcoming%20events%20button.png?raw=true");
-  }
-  .home-music {
-    top: 290px;
-    left: 518px;
-    color: rgb(185, 124, 32);
-    width: 450px;
-    height: 300px;
-    position: absolute;
-    background-size: cover;
-    text-decoration: none;
-    background-image: url("https://github.com/peytonlellis/peyton/blob/main/music%20button.png?raw=true");
-  }
-  .home-gallery {
-    top: 150px;
-    left: 100px;
+.home-ceramicscrochet {
+  top: 100px;
+  right: 10px;
+  color: rgb(185, 124, 32);
+  width: 330px;
+  height: 150px;
+  position: absolute;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("https://github.com/peytonlellis/peyton/blob/main/Ceramic%2Bcrochet%20button.png?raw=true");
+}
+
+.home-instagram {
+  top: 60px;
+  left: 216px;
+  color: rgb(185, 124, 32);
+  width: 60px;
+  height: 80px;
+  position: absolute;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("https://github.com/peytonlellis/peyton/blob/main/knockout%2013.PNG?raw=true");
+}
+
+.home-music {
+  top: 290px;
+  left: 518px;
+  color: rgb(185, 124, 32);
+  width: 480px;
+  height: 300px;
+  position: absolute;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("https://github.com/peytonlellis/peyton/blob/main/Music%20Button.png?raw=true");
+}
+.home-upcoming {
+  top: 200px;
+  left: 150px;
+  color: rgb(185, 124, 32);
+  width: 300px;
+  height: 150px;
+  position: absolute;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("https://github.com/peytonlellis/peyton/blob/main/Upcoming%20Button.png?raw=true");
+}
+.homefun-sille {
+  top: 10px;
+  left: 480px;
+  width: 500px;
+  height: 250px;
+  position: absolute;
+  background-size: cover;
+  background-color: transparent;
+  border-color: transparent;
+  background-image: url("https://github.com/peytonlellis/peyton/blob/main/knockout%20sille.PNG?raw=true");
+}
+.home-shop {
+  top: 450px;
+  left: 216px;
+  color: rgb(185, 124, 32);
+  width: 250px;
+  height: 200px;
+  position: absolute;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("https://github.com/peytonlellis/peyton/blob/main/Shop%20Button.png?raw=true");
+}
+.home-videos {
+  top: 450px;
+  left: 950px;
+  color: rgb(185, 124, 32);
+  width: 200px;
+  height: 250px;
+  position: absolute;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("https://github.com/peytonlellis/peyton/blob/main/Videos%20Button.png?raw=true");
+}
+
+@media (max-width: 425px) {
+  .home-ceramicscrochet {
+    top: 550px;
+    right: 50px;
     color: rgb(185, 124, 32);
     width: 400px;
-    height: 300px;
+    height: 200px;
     position: absolute;
     background-size: cover;
     text-decoration: none;
-    background-image: url("https://github.com/peytonlellis/peyton/blob/main/gallery%20button.png?raw=true");
+    background-image: url("https://github.com/peytonlellis/peyton/blob/main/Ceramic%2Bcrochet%20button.png?raw=true");
+  }
+  .home-instagram {
+    top: 500px;
+    left: 100px;
+    color: rgb(185, 124, 32);
+    width: 130px;
+    height: 150px;
+    position: absolute;
+    background-size: cover;
+    text-decoration: none;
+    background-image: url("https://github.com/peytonlellis/peyton/blob/main/knockout%2013.PNG?raw=true");
+  }
+
+  .home-music {
+    top: 1000px;
+    left: 200px;
+    color: rgb(185, 124, 32);
+    width: 650px;
+    height: 400px;
+    position: absolute;
+    background-size: cover;
+    text-decoration: none;
+    background-image: url("https://github.com/peytonlellis/peyton/blob/main/Music%20Button.png?raw=true");
+  }
+  .home-upcoming {
+    top: 750px;
+    left: 50px;
+    color: rgb(185, 124, 32);
+    width: 380px;
+    height: 200px;
+    position: absolute;
+    background-size: cover;
+    text-decoration: none;
+    background-image: url("https://github.com/peytonlellis/peyton/blob/main/Upcoming%20Button.png?raw=true");
   }
   .homefun-sille {
-    top: 10px;
-    left: 480px;
-    width: 500px;
-    height: 250px;
+    top: 150px;
+    left: 200px;
+    width: 600px;
+    height: 300px;
     position: absolute;
     background-size: cover;
     background-color: transparent;
@@ -83,131 +176,25 @@
     background-image: url("https://github.com/peytonlellis/peyton/blob/main/knockout%20sille.PNG?raw=true");
   }
   .home-shop {
-    top: 450px;
-    left: 216px;
+    top: 1600px;
+    left: 100px;
     color: rgb(185, 124, 32);
-    width: 300px;
-    height: 240px;
+    width: 400px;
+    height: 300px;
     position: absolute;
     background-size: cover;
     text-decoration: none;
-    background-image: url("https://github.com/peytonlellis/peyton/blob/main/shop%20button.png?raw=true");
+    background-image: url("https://github.com/peytonlellis/peyton/blob/main/Shop%20Button.png?raw=true");
   }
   .home-videos {
-    top: 450px;
-    left: 950px;
+    top: 1500px;
+    left: 650px;
     color: rgb(185, 124, 32);
     width: 300px;
-    height: 230px;
+    height: 350px;
     position: absolute;
     background-size: cover;
     text-decoration: none;
-    background-image: url("https://github.com/peytonlellis/peyton/blob/main/Video%20button.png?raw=true");
+    background-image: url("https://github.com/peytonlellis/peyton/blob/main/Videos%20Button.png?raw=true");
   }
-  @media(max-width: 991px) {
-    .home-upcoming {
-      top: 297px;
-      right: 23px;
-    }
-    .home-music {
-      top: 395px;
-      left: 398px;
-    }
-    .home-sille {
-      top: 129px;
-      left: 367px;
-    }
-    .home-shop {
-      top: 571px;
-      left: 102px;
-      width: 226px;
-      height: 193px;
-    }
-    .home-gallery {
-      top: 275px;
-      left: 72px;
-    }
-    .home-videos {
-      top: 573px;
-      right: 92px;
-      width: 188px;
-      height: 178px;
-    }
-  }
-  @media(max-width: 767px) {
-    .home-upcoming {
-      top: 280px;
-      left: 444px;
-      width: 233px;
-      height: 129px;
-      position: absolute;
-      flex-direction: row;
-    }
-    .home-music {
-      top: 452px;
-      left: 300px;
-      width: 186px;
-      height: 163px;
-    }
-    .home-sille {
-      top: 97px;
-      left: 247px;
-    }
-    .home-shop {
-      top: 628px;
-      left: 91px;
-      width: 156px;
-      height: 146px;
-    }
-    .home-gallery {
-      top: 314px;
-      left: 37px;
-    }
-    .home-videos {
-      top: 629px;
-      right: 133px;
-      width: 145px;
-      height: 151px;
-    }
-  }
-  @media(max-width: 479px) {
-    .home-upcoming {
-      top: 287px;
-      left: 250px;
-      width: 172px;
-      height: 97px;
-      margin-right: var(--dl-space-space-halfunit);
-    }
-    .home-music {
-      top: 445px;
-      left: 156px;
-      width: 169px;
-      height: 141px;
-    }
-    .home-sille {
-      top: 81px;
-      left: 98px;
-      text-decoration: none;
-    background-image: url("dark-blue-denim-jeans-texture-600nw-64649035.webp");
-
-    }
-    .home-shop {
-      top: 603px;
-      left: 32px;
-      width: 122px;
-      height: 107px;
-    }
-    .home-gallery {
-      top: 283px;
-      left: 19px;
-      width: 124px;
-      height: 107px;
-    }
-    .home-videos {
-      top: 576px;
-      right: 34px;
-      width: 95px;
-      height: 107px;
-    }
-  }
-  
+}
